@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "route": "/*",
+      "redirect": "http://178.104.6.41/sbirky",
+      "statusCode": 301
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "redirect": "http://178.104.6.41/sbirky",
+      "statusCode": 301
+    }
+  }
+}
